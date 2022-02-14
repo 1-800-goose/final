@@ -1,0 +1,54 @@
+h1 {
+  padding-top: 80px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form input {
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border: double black;
+  font-style: italic;
+}
+
+#next, #link{
+  height: 40px;
+  width: 70px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fcf8dd;
+  color: tan;
+  font-style: italic;
+}
+
+#next:hover, #link:hover {
+  background-color: tan;
+  color: #fcf8dd;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+  padding: 100px;
+}
+
+.hidden {
+  display: none !important;
+}
